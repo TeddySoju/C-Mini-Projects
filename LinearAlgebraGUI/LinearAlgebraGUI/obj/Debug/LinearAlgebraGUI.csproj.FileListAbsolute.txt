@@ -1,0 +1,10 @@
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\bin\Debug\LinearAlgebraGUI.exe.config
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\bin\Debug\LinearAlgebraGUI.exe
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\bin\Debug\LinearAlgebraGUI.pdb
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\obj\Debug\LinearAlgebraGUI.csproj.AssemblyReference.cache
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\obj\Debug\LinearAlgebraGUI.Form1.resources
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\obj\Debug\LinearAlgebraGUI.Properties.Resources.resources
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\obj\Debug\LinearAlgebraGUI.csproj.GenerateResource.cache
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\obj\Debug\LinearAlgebraGUI.csproj.CoreCompileInputs.cache
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\obj\Debug\LinearAlgebraGUI.exe
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\LinearAlgebraGUI\LinearAlgebraGUI\obj\Debug\LinearAlgebraGUI.pdb
