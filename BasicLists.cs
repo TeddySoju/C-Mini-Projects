@@ -13,7 +13,7 @@ namespace BasicListGUI
     /// <summary>
     /// This program will take the users input of names, max of 5 and display it back to them in the listbox.
     /// Author: Teddy Sun
-    /// Last edited: 
+    /// Last edited: 13/03/26
     /// </summary>
     public partial class BasicLists : Form
     {
@@ -82,3 +82,4 @@ namespace BasicListGUI
         }
     }
 }
+
