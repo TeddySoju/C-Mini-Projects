@@ -11,7 +11,8 @@ using System.Windows.Forms;
 namespace TemperatureConverterGUI
 {
     /// <summary>
-    /// This program is used to test my knowledge on how methods work, and is used to calculate the users inputed measurement into either a Fahrenheit or a Celsius. It then outputs it back to them via a listbox with the new conversion and the previous converstion.
+    /// This program is used to test my knowledge on how methods work, and is used to calculate the users inputed measurement into either a Fahrenheit or a Celsius. 
+    /// It then outputs it back to them via a listbox with the new conversion and the previous converstion.
     /// Author: Teddy Sun
     /// Last modified: 21/3/2026
     /// </summary>
@@ -49,7 +50,7 @@ namespace TemperatureConverterGUI
         {
             //Declare Variables
             double originalTemp;
-            //Try to parse the text in the textbox as a double to calculate into Fahrenheit, and parses the original input temperature as a double to display
+            //Try to parse the text in the textbox as a double to calculate into Fahrenheit
             if (double.TryParse(textBox1.Text, out double fah))
             {
                 //Saves the original temperature input into fah to display to the user later
@@ -73,7 +74,7 @@ namespace TemperatureConverterGUI
         {
             //Declare Variables
             double originalTemp;
-            //Try to parse the text in the textbox as a double to calculate into Celsius, and parses the original input temperature as a double to display
+            //Try to parse the text in the textbox as a double to calculate into Celsius
             if (double.TryParse(textBox1.Text, out double cel))
             {
                 //Saves the original temperature input into cel to display to the user later
