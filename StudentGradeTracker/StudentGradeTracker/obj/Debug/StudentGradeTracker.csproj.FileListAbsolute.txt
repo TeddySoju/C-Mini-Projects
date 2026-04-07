@@ -1,0 +1,10 @@
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\bin\Debug\StudentGradeTracker.exe.config
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\bin\Debug\StudentGradeTracker.exe
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\bin\Debug\StudentGradeTracker.pdb
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\obj\Debug\StudentGradeTracker.csproj.AssemblyReference.cache
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\obj\Debug\StudentGradeTracker.Form1.resources
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\obj\Debug\StudentGradeTracker.Properties.Resources.resources
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\obj\Debug\StudentGradeTracker.csproj.GenerateResource.cache
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\obj\Debug\StudentGradeTracker.csproj.CoreCompileInputs.cache
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\obj\Debug\StudentGradeTracker.exe
+C:\Users\Teddy\OneDrive\바탕 화면\School\Information Technology\Programming\StudentGradeTracker\StudentGradeTracker\obj\Debug\StudentGradeTracker.pdb
