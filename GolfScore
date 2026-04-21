@@ -1,0 +1,110 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics.Eventing.Reader;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace GolfScore
+{/// <summary>
+/// This program will intake the users input raw score and add it to a list. After it will calculate the net score of the users input and display
+/// the average net scores, the minimum net scores, the max net scores, the sum net scores, and the number of entries in a sorted order.
+/// Author: Teddy Sun
+/// Last Modified: 2/04/2026
+/// </summary>
+    public partial class GolfProgram : Form
+    {
+        //Declare Collections 
+        List<int> scores = new List<int>();
+        //Declare Constants
+        const int MIN_SCORE = 18;
+        const int MAX_SCORE = 400;
+        const int PAR = 71;
+        const int MIN_LIST_CONTENT = 1;
+        public GolfProgram()
+        {
+            InitializeComponent();
+        }
+        /// <summary>
+        /// This method takes the users raw score and converts it to a net score
+        /// </summary>
+        /// <param name="score">Calculates score</param>
+        /// <returns>Returns a calculation of the net score</returns>
+        private int NetScore(int score)
+        {
+            //Net score calculation against course Par
+            return score - PAR;
+        }
+        /// <summary>
+        /// This method simplifies listBoxOutput into Display, making it more efficient/clean.
+        /// E.g: listBox1.Items.Add(input) ⇒ Display(input)
+        /// </summary>
+        /// <param name="result">Displays</param>
+        private void Display(string result)
+        {
+            //Outputs the content into listBoxOutput
+            listBoxOutput.Items.Add(result);
+        }
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            //Verifies that the user's input is an integer between the minimum score and the maximum score
+            if (int.TryParse(textBoxInput.Text, out int score) && score >= MIN_SCORE && score <= MAX_SCORE)
+            {
+                //Adds the calculated Net score into the list: Scores
+                scores.Add(NetScore(score));
+                //Clears the textbox and focuses it for the user
+                textBoxInput.Clear();
+                textBoxInput.Focus();
+            }
+            else
+            {
+                //Shows the relevant error message
+                MessageBox.Show($"Please ensure that your input is an integer between {MIN_SCORE} & {MAX_SCORE}, Thank you.");
+            }
+        }
+        private void buttonGenerate_Click(object sender, EventArgs e)
+        {
+            //clear the listbox of any previous data
+            listBoxOutput.Items.Clear();
+            //If there are scores inputted within the score list
+            if (scores.Count >= MIN_LIST_CONTENT)
+            {
+                //Sorts the scores from highest to lowest
+                scores.Sort();
+                scores.Reverse();
+                //Displays heading
+                Display("Your net scores from highest value to lowest value are:");
+                //Displays each net score within the list
+                for (int i = 0; i < scores.Count; i++)
+                Display($"{scores[i]}");              
+                //Displays the min, max, average, sum, and count of the net scores to the use
+                Display("");
+                Display($"The lowest score is: {scores.Min()}");
+                Display($"The highest score is: {scores.Max()}");
+                //Rounds the average to two decimal places
+                Display($"The average score is: {Math.Round(scores.Average(), 2)}");
+                Display($"The total net scores are: {scores.Sum()}");
+                Display($"The number of scores there are: {scores.Count}");
+            }
+            else
+            {
+                //Shows the relevant error message
+                MessageBox.Show("Please ensure that there is an input before generating results.");
+            }
+            
+
+        }
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            //Clears the textboxes, lists, and collections
+            listBoxOutput.Items.Clear();
+            textBoxInput.Clear();
+            textBoxInput.Focus();
+            scores.Clear();
+        }
+    }
+}
